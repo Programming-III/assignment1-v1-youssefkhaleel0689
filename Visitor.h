@@ -1,15 +1,23 @@
+#pragma once
 #ifndef VISITOR_H
 #define VISITOR_H
-
-#include <string>
+#include <iostream>
 using namespace std;
+#include <string>
+class Visitor {
+private:
+	string visitorName;
+	int ticketsBought;
+public:
+	Visitor(string visitorName, int ticketsBought);
+	Visitor();
+	~Visitor();
+	
+	void displayinfo();
+	
 
-//define visitor class here
 
+};
 
+#endif // !VISITOR_H
 
-
-
-
-
-#endif
