@@ -6,7 +6,17 @@
 //define reptile class here
 
 
+class Reptile : public Animal {
+private:
 
+	bool isVenomous;
+public:
+Reptile(bool isVenomous);
+Reptile();
+~Reptile();
+
+
+};
 
 
 
