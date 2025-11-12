@@ -1,11 +1,22 @@
+#pragma once
+#include <iostream>
+using namespace std;
+#include <string>
 #ifndef ANIMAL_H
 #define ANIMAL_H
+class Animal {
+private:
+	string name;
+	int age;
+	bool isHungry;
 
-#include <string>
-using namespace std;
+public:
+	Animal(string , int ,bool);
+	Animal();
+	~Animal();
+	void display();
+	void feed();
 
-//define animal class here 
 
-
-
-#endif
+};
+#endif // !ANIMAL_H
