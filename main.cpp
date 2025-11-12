@@ -118,7 +118,12 @@ void Visitor::displayinfo() {
 
 // ============== MAIN FUNCTION ==============
 int main() {
-    
+    Animal("lion",5,true);
+	Animal("parrot",2,false);
+	vistor("sarah",3);
+	
+	
+	
     
     return 0;
 }
