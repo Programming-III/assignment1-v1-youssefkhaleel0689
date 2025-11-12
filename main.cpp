@@ -27,6 +27,50 @@ void Animal::feed() {
 		cout << "isnot hungry " << endl;
 }
 
+bird::bird(float) :Animal (string name, int age, bool isHungry) {
+	this->wingSpan = wingSpan;
+	Animal::getage();
+Animal::getishungry();
+Animal::getname();
+
+}
+bird::bird() {
+	this->wingSpan = false;
+	
+
+
+}
+Reptile :: Reptile(bool isVenomous){
+	Animal::getage();
+Animal::getishungry();
+Animal::getname();
+this-> isVenomous= isVenomous;
+	
+}
+Reptile :: Reptile(){
+
+this-> isVenomous= false;
+	
+}
+Reptile :: ~Reptile(){
+
+	
+}
+Mamal:: (string furColor){
+	Animal::getage();
+Animal::getishungry();
+Animal::getname();
+	this-> furColor= string furColor;
+
+}
+Mamal:: Mamal (){
+	this-> furColor= "";
+}
+Mamal::~ Mamal(){
+	this-> furColor= "";
+}
+
+
 
 
 //  class enclosure 
